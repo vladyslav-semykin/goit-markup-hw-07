@@ -61,8 +61,10 @@ footer {
   margin-top: 20px;
 }
 
-.footer-icon-item:not(:last-child) {
-  margin-right: 10px;
+.footer-icon-item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .social-footer-link {

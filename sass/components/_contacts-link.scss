@@ -8,6 +8,8 @@
   align-items: center;
 }
 
-.contacts-item:not(:last-child) {
-  margin-right: 50px;
+.contacts-item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }

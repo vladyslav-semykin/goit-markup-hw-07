@@ -9,8 +9,10 @@
   margin-top: 50px;
 }
 
-.customers-list-item:not(:last-child) {
-  margin-right: 30px;
+.customers-list-item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .customers-list-link {
